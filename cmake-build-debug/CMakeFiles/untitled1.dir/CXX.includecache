@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vikas/CLionProjects/untitled1/HashMap.h
+cstdlib
+-
+iostream
+/home/vikas/CLionProjects/untitled1/iostream
+string
+-
+
+/home/vikas/CLionProjects/untitled1/main.cpp
+iostream
+-
+vector
+-
+unordered_map
+-
+chrono
+/home/vikas/CLionProjects/untitled1/chrono
+HashMap.h
+/home/vikas/CLionProjects/untitled1/HashMap.h
+
